@@ -3,7 +3,7 @@ import {PropsWithChildren} from "react";
 import {Header} from "components/Header/Header";
 import styled from "styled-components";
 
-export const Layot: NextPage<PropsWithChildren> = (props) => {
+export const Layout: NextPage<PropsWithChildren> = (props) => {
     const {children} = props
     return (
         <div>
